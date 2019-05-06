@@ -120,7 +120,7 @@ if __name__ == '__main__':
         os.mkdir(os.path.join(outPath, 'bounding_box_test'))
         os.mkdir(os.path.join(outPath, 'query'))
 
-    for d in ['bounding_box_train']:  # 'query' 'bounding_box_train' bounding_box_test
+    for d in ['bounding_box_train', 'bounding_box_test', 'query']:  # 'query' 'bounding_box_train' bounding_box_test
         path = os.path.join(originPath, d)
 
         print(path)
