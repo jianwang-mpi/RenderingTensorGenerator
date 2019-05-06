@@ -122,9 +122,7 @@ if __name__ == '__main__':
 
     for d in ['bounding_box_train', 'bounding_box_test', 'query']:  # 'query' 'bounding_box_train' bounding_box_test
         path = os.path.join(originPath, d)
-
-        print(path)
-
+        print('start executing: ', path)
         for root, dirs, files in os.walk(path, topdown=False):
 
             for file in tqdm.tqdm(files):
@@ -132,7 +130,7 @@ if __name__ == '__main__':
                     continue
 
                 img_path = os.path.join(root, file)
-                print(img_path)
+                # print(img_path)
                 input_img = cv2.imread(img_path)
                 # input_img = input_img[:, 40:-40, :]
                 input_img = cv2.resize(input_img, (64, 128))

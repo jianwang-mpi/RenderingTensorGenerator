@@ -92,7 +92,7 @@ def preprocess_image(img, config):
 
 
     if np.max(img.shape[:2]) != config.img_size:
-        print('Resizing so the max image size is %d..' % config.img_size)
+        # print('Resizing so the max image size is %d..' % config.img_size)
         scale = (float(config.img_size) / np.max(img.shape[:2]))
     else:
         scale = 1.
