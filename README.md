@@ -6,6 +6,7 @@ Requirement:
  - tensorflow
  - Opendr
  - tqdm
+ - opencv-python
 
 Usage:
 - Download the [Market-1501 dataset](http://www.liangzheng.com.cn/Project/project_reid.html)

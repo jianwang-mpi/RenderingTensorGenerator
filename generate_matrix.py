@@ -134,7 +134,7 @@ if __name__ == '__main__':
                 img_path = os.path.join(root, file)
                 print(img_path)
                 input_img = cv2.imread(img_path)
-                input_img = input_img[:, 40:-40, :]
+                # input_img = input_img[:, 40:-40, :]
                 input_img = cv2.resize(input_img, (64, 128))
 
                 uvmap_path = uvmapPath
