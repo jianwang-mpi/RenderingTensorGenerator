@@ -1,0 +1,4 @@
+.idea
+*.pyc
+hmr/models
+depreciated
