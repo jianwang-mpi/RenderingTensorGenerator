@@ -23,3 +23,4 @@ wget https://people.eecs.berkeley.edu/~kanazawa/cachedir/hmr/models.tar.gz && ta
 ```bash
 bash generated_render_tensor.sh
 ```
+It will take several hours before generating all of the rendering tensors.
